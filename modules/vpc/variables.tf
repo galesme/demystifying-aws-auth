@@ -12,7 +12,7 @@ variable "list_of_cidr_range" {
 
 variable "list_of_azs" {
   type    = list(string)
-  default = ["ap-southeast-1a", "ap-southeast-1b", "ap-southeast-1c"]
+  default = ["us-east-1a", "us-east-1b", "us-east-1c"]
 }
 
 variable "vpc_cidr_block" {

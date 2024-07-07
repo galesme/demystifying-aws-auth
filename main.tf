@@ -14,7 +14,7 @@ module "vpc" {
   stack_name     = local.name
   vpc_cidr_block = "10.0.0.0/16"
 
-  list_of_azs        = ["ap-southeast-1a", "ap-southeast-1b", "ap-southeast-1c"]
+  list_of_azs        = ["us-east-1a", "us-east-1b", "us-east-1c"]
   list_of_cidr_range = ["10.0.101.0/24", "10.0.102.0/24", "10.0.103.0/24"]
 
   default_tags = local.default_tags
